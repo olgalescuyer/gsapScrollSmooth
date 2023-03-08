@@ -62,11 +62,9 @@ body {
   z-index: -1;
 }
 .hero--logo {
-  width: calc(var(--index) * 36);
+  width: calc(var(--index) * 26);
   position: absolute;
-  left: -5vw;
-  top: 62vh;
-  z-index: -1;
+  bottom: 12vh;
 }
 
 .main-header {
