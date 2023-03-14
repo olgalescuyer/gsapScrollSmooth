@@ -83,8 +83,8 @@ body {
   right: 0;
   z-index: 12;
 }
-.her--lang span {
-  padding-right: 20px;
+.hero--lang span {
+  padding-right: 10px;
 }
 
 .main-header {
