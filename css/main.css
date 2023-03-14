@@ -47,8 +47,8 @@ h6 {
   will-change: transform;
 }
 body {
-  background-image: url(../img/bg.jpg);
-  /* background-color: #1c1f1e; */
+  /* background-image: url(../img/bg.jpg); */
+  background-color: #27272a;
   background-size: 50px;
   color: #fafafa;
   font-family: raleway-c;
