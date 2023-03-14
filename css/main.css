@@ -54,6 +54,17 @@ body {
   font-family: raleway-c;
   overflow-x: hidden;
 }
+.navbar {
+  position: absolute;
+  top: 12vh;
+  left: 22vh;
+  z-index: 12;
+}
+.navbar a {
+  color: white;
+  padding-right: 20px;
+  text-decoration: none;
+}
 .hero {
   width: calc(var(--index) * 66);
   position: absolute;
@@ -65,6 +76,15 @@ body {
   width: calc(var(--index) * 26);
   position: absolute;
   bottom: 12vh;
+}
+.hero--lang {
+  position: absolute;
+  bottom: 15vh;
+  right: 0;
+  z-index: 12;
+}
+.her--lang span {
+  padding-right: 20px;
 }
 
 .main-header {
