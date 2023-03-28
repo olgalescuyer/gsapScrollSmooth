@@ -1,13 +1,13 @@
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-if (ScrollTrigger.isTouch !== 1) {
-  ScrollSmoother.create({
-    wrapper: ".wrapper",
-    content: ".content",
-    smooth: 1.5,
-    effects: true,
-  });
+ScrollSmoother.create({
+  wrapper: ".wrapper",
+  content: ".content",
+  smooth: 1.5,
+  effects: true,
+});
 
+if (ScrollTrigger.isTouch !== 1) {
   //   gsap.fromTo(
   //     ".hero-section",
   //     { opacity: 1 },
@@ -21,9 +21,7 @@ if (ScrollTrigger.isTouch !== 1) {
   //       },
   //     }
   //   );
-
   //   let itemsL = gsap.utils.toArray(".gallery__left .gallery__item");
-
   //   itemsL.forEach((item) => {
   //     gsap.fromTo(
   //       item,
@@ -40,9 +38,7 @@ if (ScrollTrigger.isTouch !== 1) {
   //       }
   //     );
   //   });
-
   //   let itemsR = gsap.utils.toArray(".gallery__right .gallery__item");
-
   //   itemsR.forEach((item) => {
   //     gsap.fromTo(
   //       item,
